@@ -1,0 +1,22 @@
+h1
+{
+display: flex;
+    justify-content: center;
+
+color: yellow
+    
+
+}
+body
+{
+    background-color: purple;
+
+}
+
+header{
+    background-color: rebeccapurple;
+display: flex;
+justify-content: center;
+font-style: initial;
+
+}
