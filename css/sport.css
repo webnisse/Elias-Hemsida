@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  border-bottom: rgb(3, 3, 92) 1px solid;
+  border-top: rgb(3, 3, 92) 20px solid;
+  border-left: black 1px solid;
+  border-right: black 1px solid;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  border-bottom: black 1px solid;
+}
+
+.buttons {
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.buttons :hover {
+  color: red;
+}
+
+body {
+  background-color: black;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.all {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+form {
+  background-color: white;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.sear {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  color: black;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+h2 {
+  font-style: inherit;
+  font-size: 50px;
+}
+main {
+  border-left: black 1px solid;
+  border-right: black 1px solid;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.img:nth-child(even) {
+  align-items: flex-end;
+}
+
+.img i {
+  width: 50%;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons2 {
+  
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  border: solid black 2px;
+  
+}
